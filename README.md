@@ -1,2 +1,5 @@
-# beecrowd
-BeeCrowd Challenges
+# BeeCrowd Challenges
+
+This repository contains my solutions to the BeeCrowd challenges
+
+
