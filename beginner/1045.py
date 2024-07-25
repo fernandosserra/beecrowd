@@ -20,6 +20,7 @@ sides = [float(x) for x in input().split()]
 sides.sort(reverse=True)
 A, B, C = sides
 
+# showing
 if A >= B + C:
     print('NAO FORMA TRIANGULO')
 else:
@@ -33,4 +34,4 @@ else:
 if A == B and A == C:
     print('TRIANGULO EQUILATERO')
 elif A == B or A == C or B == C:
-    print('TRIANGULO ISOCELES')
+    print('TRIANGULO ISOSCELES')
