@@ -23,4 +23,5 @@ if (control_final <= control_start):
 hour_present = (control_final - control_start) // 60
 minute_present = (control_final - control_start) % 60
 
+# Showing
 print(f'O JOGO DUROU {hour_present} HORA(S) E {minute_present} MINUTO(S)')
