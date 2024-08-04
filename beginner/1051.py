@@ -36,11 +36,9 @@ if (income > 3000.00):
     income = 3000.00
 if (income > 2000.00):
     ir_tax += (income - 2000.00) * 0.08
-    
+
+# Showing    
 if ir_tax == 0:
     print('Isento')
 else:
     print(f'R$ {ir_tax:.2f}')
-    
-    
-    
