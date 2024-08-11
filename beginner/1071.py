@@ -20,7 +20,7 @@ if x > y:
 z = 0
 
 # Iterating between values
-for i in range (x + 1,  y):  # Preciso estuar melhor o Range.
+for i in range (x + 1,  y):  # Need to study hard here!!!
     if i % 2 != 0:
         z += i
 
