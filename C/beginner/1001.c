@@ -22,3 +22,6 @@ int main (){
     printf("X = %d\n", x);
     return 0;
 }
+
+/*Code by Fernando Serra*/
+/*https://github.com/fernandosserra*/

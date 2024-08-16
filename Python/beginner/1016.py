@@ -28,3 +28,6 @@ time_to_pass = (road_time * Y) // 30
 
 # Showing
 print(f'{time_to_pass} minutos')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

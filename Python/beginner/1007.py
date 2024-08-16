@@ -27,3 +27,6 @@ diferenca = ((a * b)- (c * d))
 
 # Showing
 print(f'DIFERENCA = {diferenca}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

@@ -29,3 +29,6 @@ if ddd in cities:
     print(cities[ddd])
 else:
     print('DDD nao cadastrado')
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

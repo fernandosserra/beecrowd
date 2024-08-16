@@ -26,3 +26,6 @@ if (a + b) > c \
         print(f'Perimetro = {perimeter}')
 else:
     print(f'Area = {area}')
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

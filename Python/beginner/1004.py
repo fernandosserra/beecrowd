@@ -27,3 +27,6 @@ prod = a * b
 
 # Showing
 print(f'PROD = {prod}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

@@ -32,3 +32,6 @@ salary = (hours_worked * hours_value)
 # Returning
 print(f'NUMBER = {emp_doc}')
 print(f'SALARY = U$ {salary:.2f}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

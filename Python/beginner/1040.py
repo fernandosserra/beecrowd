@@ -43,3 +43,6 @@ elif student_avg <= 6.9 and student_avg >= 5:
         print('Aluno reprovado.')
 else:
     print('Aluno reprovado.')
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

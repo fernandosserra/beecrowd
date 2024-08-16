@@ -21,3 +21,6 @@ for i in range(3):
 print()
 for i in range(3):
     print(usr_input[i])
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

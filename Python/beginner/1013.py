@@ -20,3 +20,6 @@ greater_abc = (greater_ab + c + abs(greater_ab - c)) // 2
 
 # Showing
 print(f'{greater_abc} eh o maior')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

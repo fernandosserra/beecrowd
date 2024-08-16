@@ -29,3 +29,6 @@ nec_fuel = (time_spent * avg_speed) / KML
 
 # Showing
 print(f'{nec_fuel:.3f}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

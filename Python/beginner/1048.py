@@ -50,3 +50,6 @@ else:
 print(f'Novo salario: {income:.2f}')
 print(f'Reajuste ganho: {bonus:.2f}')
 print(f'Em percentual: {int(perc*100)} %')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

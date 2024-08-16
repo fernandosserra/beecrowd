@@ -19,4 +19,4 @@ for _ in range(1, 10001, 1):
         print(_)
 
 # By Fernando Serra
-# https://github.com/fernandoserra
+# https://github.com/fernandosserra

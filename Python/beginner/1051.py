@@ -42,3 +42,6 @@ if ir_tax == 0:
     print('Isento')
 else:
     print(f'R$ {ir_tax:.2f}')
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

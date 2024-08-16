@@ -26,3 +26,5 @@ area = PI * (radius**2)
 # Showing Results
 print(f'A={area:.4f}')
 
+# By Fernando Serra
+# https://github.com/fernandosserra

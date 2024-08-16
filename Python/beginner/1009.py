@@ -27,3 +27,6 @@ liquid_salary = (salary + (total_sales * 0.15))
 
 # Returning
 print(f'TOTAL = R$ {liquid_salary:.2f}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

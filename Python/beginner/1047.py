@@ -25,3 +25,6 @@ minute_present = (control_final - control_start) % 60
 
 # Showing
 print(f'O JOGO DUROU {hour_present} HORA(S) E {minute_present} MINUTO(S)')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

@@ -32,4 +32,4 @@ main = do
     printf "A=%.4f\n" area
 
 -- By Fernando Serra
--- https://github.com/fernandoserra
+-- https://github.com/fernandosserra

@@ -17,4 +17,4 @@ for i in range(1, x + 1):
         print(i)
         
 # By Fernando Serra
-# https://github.com/fernandoserra
+# https://github.com/fernandosserra

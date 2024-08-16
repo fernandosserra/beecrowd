@@ -13,3 +13,6 @@ for i in range(5):
     if single_value % 2 == 0:
         values.append(single_value)
 print(f'{len(values)} valores pares')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

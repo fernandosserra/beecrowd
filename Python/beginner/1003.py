@@ -30,3 +30,6 @@ soma = a + b
 
 # Showing results
 print(f'SOMA = {soma}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

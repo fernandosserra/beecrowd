@@ -29,3 +29,6 @@ elif usr_value > 75 and usr_value <= 100:
     print(f'Intervalo (75,100]')
 else:
     print(f'Fora de Intervalo')
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

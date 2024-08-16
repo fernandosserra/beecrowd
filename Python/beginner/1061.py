@@ -47,3 +47,6 @@ print(f'{sh_days} dia(s)')
 print(f'{sh_hours} hora(s)')
 print(f'{sh_minutes} minuto(s)')
 print(f'{sh_seconds} segundo(s)')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

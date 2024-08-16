@@ -30,3 +30,6 @@ media = ((a * 2) + (b * 3) + (c * 5)) / 10
 
 # Returning
 print(f'MEDIA = {media:.1f}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

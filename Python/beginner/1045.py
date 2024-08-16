@@ -35,3 +35,6 @@ if A == B and A == C:
     print('TRIANGULO EQUILATERO')
 elif A == B or A == C or B == C:
     print('TRIANGULO ISOSCELES')
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

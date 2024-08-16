@@ -25,3 +25,6 @@ for _ in range(len(usr_values)):
 
 # Showing
 print(f'{positive_values} valores positivos')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

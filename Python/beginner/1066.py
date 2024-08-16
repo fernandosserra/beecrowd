@@ -37,5 +37,5 @@ print(f'{odd_values} valor(es) impar(es)')
 print(f'{positive_values} valor(es) positivo(s)')
 print(f'{negative_values} valor(es) negativo(s)')
 
-# By: Fernando Serra
-# https://github.com/fernandoserra
+# By Fernando Serra
+# https://github.com/fernandosserra

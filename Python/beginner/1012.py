@@ -33,3 +33,6 @@ print(f'CIRCULO: {h_circle:.3f}')
 print(f'TRAPEZIO: {h_trapezium:.3f}')
 print(f'QUADRADO: {h_square:.3f}')
 print(f'RETANGULO: {h_rectangle:.3f}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

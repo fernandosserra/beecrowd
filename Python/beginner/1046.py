@@ -15,3 +15,6 @@ if final_hr <= start_hr:
     final_hr += 24
     
 print(f'O JOGO DUROU {final_hr - start_hr} HORA(S)')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

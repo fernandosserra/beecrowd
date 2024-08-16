@@ -45,3 +45,6 @@ elif usr_p2 == 0:
     print('Eixo X')
 else:
     print('Erro!')
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

@@ -19,3 +19,6 @@ usr_opt, usr_quant = map(int,(input().split()))
 
 # Showing
 total = print(f'Total: R$ {(menu_prices[usr_opt]*usr_quant):.2f}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

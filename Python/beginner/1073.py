@@ -20,4 +20,4 @@ for _ in range(1, n + 1, 1):
         print(f'{_}^2 = {_**2}')
         
 # By Fernando Serra
-# https://github.com/fernandoserra
+# https://github.com/fernandosserra

@@ -14,3 +14,6 @@ while control_var <= 100:
     if control_var % 2 == 0:
         print(control_var)
     control_var += 1
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

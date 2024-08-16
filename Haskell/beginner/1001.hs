@@ -25,4 +25,4 @@ main = do
     putStrLn ("X = " ++ show x)
 
 -- By Fernando Serra
--- https://github.com/fernandoserra
+-- https://github.com/fernandosserra

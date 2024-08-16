@@ -23,3 +23,6 @@ kml = x / y
 
 # Showing
 print(f'{kml:.3f} km/l')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

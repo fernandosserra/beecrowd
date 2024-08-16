@@ -29,3 +29,6 @@ elif delta == 0:
     print(f'R1 = {x_one:.5f}')
 else:
     print('Impossivel calcular')
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

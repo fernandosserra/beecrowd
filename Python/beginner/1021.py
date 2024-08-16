@@ -28,3 +28,6 @@ print('MOEDAS:')
 for coin in coins:
     print(f'{bills//coin} moeda(s) de R$ {(coin/100):.2f}')
     bills %= coin
+    
+# By Fernando Serra
+# https://github.com/fernandosserra

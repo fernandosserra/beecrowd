@@ -25,3 +25,6 @@ days = age
 print(f'{years} ano(s)')
 print(f'{months} mes(es)')
 print(f'{days} dia(s)')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

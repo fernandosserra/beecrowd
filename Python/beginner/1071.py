@@ -28,4 +28,4 @@ for i in range (x + 1,  y):  # Need to study hard here!!!
 print(z)
 
 # By Fernando Serra
-# https://github.com/fernandoserra        
+# https://github.com/fernandosserra   

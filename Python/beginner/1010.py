@@ -28,3 +28,6 @@ checkout_value = check_value1 + check_value2
 
 # Returning
 print(f'VALOR A PAGAR: R$ {checkout_value:.2f}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

@@ -28,3 +28,6 @@ usr_input = int(input())
 # showing
 
 print(f'{months[usr_input-1]}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

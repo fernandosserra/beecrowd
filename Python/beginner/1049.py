@@ -30,3 +30,6 @@ else:
             print('sanguessuga')
         else:
             print('minhoca')
+            
+# By Fernando Serra
+# https://github.com/fernandosserra

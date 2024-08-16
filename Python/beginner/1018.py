@@ -31,3 +31,6 @@ amount %= 5
 print(f'{amount//2} nota(s) de R$ 2,00')
 amount %= 2
 print(f'{amount} nota(s) de R$ 1,00')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

@@ -30,5 +30,5 @@ positive_avg = sum(positive_list) / len(positive_list)
 print(f'{positive_values} valores positivos')
 print(f'{positive_avg:.1f}')
 
-# By: Fernando Serra
-# https://github.com/fernandoserra
+# By Fernando Serra
+# https://github.com/fernandosserra

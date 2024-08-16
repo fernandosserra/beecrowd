@@ -27,3 +27,6 @@ media = ((a * 3.5) + (b *7.5))/11
 
 # Showing
 print(f'MEDIA = {media:.5f}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra

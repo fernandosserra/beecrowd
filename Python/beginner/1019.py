@@ -18,3 +18,6 @@ time_amount %= 60
 
 # Presenting
 print(f'{time_hours}:{time_minutes}:{time_amount}')
+
+# By Fernando Serra
+# https://github.com/fernandosserra
