@@ -1,42 +1,35 @@
+-- https://judge.beecrowd.com/pt/problems/view/1045 
+-- Importing required functions
 import Text.Printf
+import Data.List (sort)
 
--- Função para ordenar os valores em ordem decrescente
-swap :: (Ord a) => a -> a -> (a, a)
-swap x y = if x > y then (x, y) else (y, x)
-
--- Função para ordenar os três lados do triângulo
-sort3 :: (Ord a) => a -> a -> a -> (a, a, a)
-sort3 x y z = let (a, b) = swap x y
-                  (b', c) = swap b z
-                  (a', b'') = swap a b'
-              in (a', b'', c)
-
--- Main
 main :: IO ()
 main = do
-    -- Solicitando valores e atribuindo às variáveis
-    usr_input <- getLine
-    let [a, b, c] = map read (words usr_input) :: [Double]
+    -- Requesting input
+    input <- getLine
+    let lados = map read (words input) :: [Double]
+    let [a, b, c] = reverse (sort lados)  -- Sort in descending order
 
-    -- Ordenando os lados em ordem decrescente
-    let (a'', b'', c'') = sort3 a b c
+    -- Check if it forms a triangle
+    if a >= b + c then
+        printf "NAO FORMA TRIANGULO\n"
+    else do
+        -- Check triangle type
+        if a^2 == b^2 + c^2 then
+            printf "TRIANGULO RETANGULO\n"
+        else if a^2 > b^2 + c^2 then
+            printf "TRIANGULO OBTUSANGULO\n"
+        else
+            printf "TRIANGULO ACUTANGULO\n"
 
-    -- Verificando o tipo de triângulo
-    if a'' >= b'' + c''
-        then printf "NAO FORMA TRIANGULO\n"
-        else do
-            if a''^2 == b''^2 + c''^2
-                then printf "TRIANGULO RETANGULO\n"
-                else if a''^2 > b''^2 + c''^2
-                    then printf "TRIANGULO OBTUSANGULO\n"
-                    else printf "TRIANGULO ACUTANGULO\n"
-
-    if a'' == b'' && b'' == c''
-        then printf "TRIANGULO EQUILATERO\n"
-        else if a'' == b'' || b'' == c'' || a'' == c''
-            then printf "TRIANGULO ISOSCELES\n"
-    else
-        printf "...\n"
+        -- Check if it is equilateral or isosceles
+        if a == b && b == c then
+            printf "TRIANGULO EQUILATERO\n"
+        else if a == b || a == c || b == c then
+            printf "TRIANGULO ISOSCELES\n"
+        else
+            return()
 
 -- By Fernando Serra
 -- https://github.com/fernandosserra
+-- I had a lot of help from ChatGPT and the Haskell documentation for this fix
