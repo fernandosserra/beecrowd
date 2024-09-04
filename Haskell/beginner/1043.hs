@@ -9,7 +9,7 @@ main = do
     let [a, b, c] = map read (words usr_input) :: [Double]
 
     -- Finding area
-    let area = (a * c) / 2
+    let area = ((a  + b) * c) / 2
     -- Finding perimeter
     let perimeter = a + b + c
 
@@ -21,6 +21,6 @@ main = do
         else do
             -- Showing results
             printf "Area = %.1f\n" area
-
+            
 -- By Fernando Serra
 -- https://github.com/fernandosserra
