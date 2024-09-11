@@ -1,5 +1,5 @@
 // https://judge.beecrowd.com/pt/problems/view/1065
-// Números Pares
+// Pares entre Cinco Números
 
 // Libraries
 #include <stdio.h>
