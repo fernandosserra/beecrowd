@@ -4,7 +4,7 @@
 -- Importing useful libraries
 import Control.Monad (replicateM) -- To iterate after the user enters the number of iterations
 
--- Funcion to get sequencial values
+-- Function to get sequencial values
 getValue :: IO Int
 getValue = do
     input <- getLine
