@@ -16,7 +16,7 @@ int main(){
     // Iterating
     for (int i = 0; i < usr_iterations; i++){
         scanf("%lf %lf", &X, &Y);
-        if (X == 0 || Y == 0){
+        if (Y == 0){
             printf("divisao impossivel\n");
         } else {
             printf("%.1lf\n",  X / Y);

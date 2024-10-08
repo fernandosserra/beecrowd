@@ -11,7 +11,7 @@ getPairs = do
     -- Scanning coordinates
     usr_pairs <- getLine    
     let [x, y] = map read (words usr_pairs) :: [Double]
-    if x == 0 || y == 0
+    if y == 0
         then putStrLn "divisao impossivel"
         else if x /= 0 || y /= 0
             then printf "%.1f\n" (x / y)
