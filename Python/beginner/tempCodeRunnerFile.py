@@ -1,0 +1,1 @@
+print(f'{sum([i / 2**(j) for j, i in enumerate(range(1, 39, 3))]):.2f}')
