@@ -19,15 +19,15 @@ for _ in range(testCases):
     # Testing other cases
     else:
         # Boolean Guard to check if number is prime
-        isPrime = True
+        is_Prime = True
         # Iterating between 2 and up to sqrt(number)        
         for i in range(2, round(sqrt(number)) + 1):
             if number % i == 0:
-                isPrime = False
+                is_Prime = False
                 break
             
         # Printing   
-        print(f'{number} eh primo' if isPrime else f'{number} nao eh primo') 
+        print(f'{number} eh primo' if is_Prime else f'{number} nao eh primo') 
     
 # By Fernando Serra
 # https://github.com/fernandosserra
