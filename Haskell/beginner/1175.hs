@@ -1,4 +1,3 @@
-import Control.Monad.RWS.CPS (MonadState(put))
 -- https://judge.beecrowd.com/pt/problems/view/1175
 -- Troca em Vetor I
 
