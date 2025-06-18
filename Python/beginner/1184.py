@@ -1,17 +1,17 @@
-# https://judge.beecrowd.com/pt/problems/view/1183
-# Acima da Diagonal Principal
+# https://judge.beecrowd.com/pt/problems/view/1184
+# Abaixo da Diagonal Principal
 
 # Constants
 M_SIZE = 12
 
 # Function to find our Results
-def calculateAboveDiagonal(matrix, operation):
+def calculateBelowDiagonal(matrix, operation):
     total_sum = 0.0
     count = 0 # To Count for Average
     
-    # Iterating between matrix to find if the numbers are above the diagonal
+    # Iterating between matrix to find if the numbers are below the diagonal
     for i in range(M_SIZE):
-        for j in range(i + 1, M_SIZE):
+        for j in range(i):
             total_sum += matrix[i][j]
             count += 1
             
@@ -37,7 +37,7 @@ for i in range(M_SIZE):
     
     
 # Calculating sum or average
-result = calculateAboveDiagonal(ourMatrix, operation)
+result = calculateBelowDiagonal(ourMatrix, operation)
 
 # Showing
 print(f"{result:.1f}")
