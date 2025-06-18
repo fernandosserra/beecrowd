@@ -8,7 +8,7 @@
 #define SIZE 12
 
 // Functions prototypes
-double aboveDiagonal(double matrix[SIZE][SIZE], char operation);
+double belowDiagonal(double matrix[SIZE][SIZE], char operation);
 
 // Main Function
 int main() {
@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    double result = aboveDiagonal(matrix, operation);
+    double result = belowDiagonal(matrix, operation);
     printf("%.1lf\n", result);
 
 
@@ -38,14 +38,14 @@ int main() {
 }
 
 // Function aboveDiagonal
-double aboveDiagonal(double matrix[][SIZE], char operation) {
+double belowDiagonal(double matrix[][SIZE], char operation) {
     double sum = 0.0;
     int count = 0; // To Count for Average
 
-    // Iterating between matrix to find if the numbers are above the diagonal
+    // Iterating between matrix to find if the numbers are above the main diagonal
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
-            // Conditon to be in main diagonal is j > i
+            // Conditon to be above main diagonal is j > i
             if (j > i) {
                 sum += matrix[i][j];
                 count++;
@@ -53,10 +53,10 @@ double aboveDiagonal(double matrix[][SIZE], char operation) {
         }
     }
 
-    // Returning result
+    // Returning result for operation 'S'
     if (operation == 'S') {
         return sum;
-    } else { // Se for 'M'
+    } else { // If operation is 'M'
         // Preventing division by 0
         if (count == 0) {
             return 0.0;

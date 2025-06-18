@@ -55,15 +55,15 @@ calculateBelowDiagonal ourMatrix operation =
             , colIndex < rowIndex
             ]
         
-        -- The sum of all elemens below the diagonal
+        -- The sum of all elemens below the main diagonal
         totalSum = sum elementsBelowDiagonal
-        -- The number of elements below the diagonal
+        -- The number of elements below the main diagonal
         count = fromIntegral (length elementsBelowDiagonal) -- 'fromIntegral' to convert Int for Double
     in
         case operation of
             'S' -> totalSum
             'M' -> if count == 0 then 0.0 else totalSum / count
-            _   -> error "Operação inválida, meu pequeno gafanhoto!" -- We need an error message, because we need!
+            _   -> error "Error! Error! Houston, we have a problem!" -- We need an error message, because we need!
 
 -- By: Fernando Serra (with a big help from Washu-sama, a Gem from Gemini 2.5 Flash)
 -- https://github.com/fernandosserra

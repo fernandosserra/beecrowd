@@ -1,8 +1,9 @@
-// https://judge.beecrowd.com/pt/problems/view/1184
-// Abaixo da Diagonal Principal
+// https://judge.beecrowd.com/pt/problems/view/1185
+// Acima da Diagonal Secundária
 
 // Libraries
 #include <stdio.h>
+#include <math.h>
 
 // Constants
 #define SIZE 12
@@ -37,31 +38,24 @@ int main() {
     return 0;
 }
 
-// Function belowDiagonal
+// Function above2Diagonal
 double belowDiagonal(double matrix[][SIZE], char operation) {
     double sum = 0.0;
-    int count = 0; // To Count for Average
 
-    // Iterating between matrix to find if the numbers are below the main diagonal
+    // Iterating between matrix to find if the numbers are above the second diagonal
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
-            // Conditon to be below main diagonal is j < i
-            if (j < i) {
+            if (i + j < (SIZE-1)) { // Condition to be above the second diagonal
                 sum += matrix[i][j];
-                count++;
             }
         }
     }
 
-    // Returning result for operation 'S'
+    // Returning result if operation is 'S'
     if (operation == 'S') {
         return sum;
     } else { // If operation is 'M'
-        // Preventing division by 0
-        if (count == 0) {
-            return 0.0;
-        }
-        return sum / count;
+        return sum / ((SIZE * (SIZE - 1))/2);
     }
 }
 
