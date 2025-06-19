@@ -8,7 +8,7 @@
 #define SIZE 12
 
 // Functions prototypes
-double belowDiagonal(double matrix[SIZE][SIZE], char operation);
+double belowSecondDiagonal(double matrix[SIZE][SIZE], char operation);
 
 // Main Function
 int main() {
@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    double result = belowDiagonal(matrix, operation);
+    double result = belowSecondDiagonal(matrix, operation);
     printf("%.1lf\n", result);
 
 
@@ -38,7 +38,7 @@ int main() {
 }
 
 // Function belowDiagonal
-double belowDiagonal(double matrix[][SIZE], char operation) {
+double belowSecondDiagonal(double matrix[][SIZE], char operation) {
     double sum = 0.0;
     int count = 0; // To Count for Average
 

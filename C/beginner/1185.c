@@ -9,7 +9,7 @@
 #define SIZE 12
 
 // Functions prototypes
-double belowDiagonal(double matrix[SIZE][SIZE], char operation);
+double belowSecondDiagonal(double matrix[SIZE][SIZE], char operation);
 
 // Main Function
 int main() {
@@ -30,7 +30,7 @@ int main() {
         }
     }
 
-    double result = belowDiagonal(matrix, operation);
+    double result = belowSecondDiagonal(matrix, operation);
     printf("%.1lf\n", result);
 
 
@@ -39,7 +39,7 @@ int main() {
 }
 
 // Function above2Diagonal
-double belowDiagonal(double matrix[][SIZE], char operation) {
+double belowSecondDiagonal(double matrix[][SIZE], char operation) {
     double sum = 0.0;
 
     // Iterating between matrix to find if the numbers are above the second diagonal
