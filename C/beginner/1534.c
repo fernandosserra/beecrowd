@@ -15,11 +15,11 @@ int main() {
         for (i = 0; i < N; i++) {
             // to fill columns
             for (j = 0; j < N; j++) {
-                // Main diagonal
+                // Sec. diagonal
                 if (i == N - 1 - j) {
                     printf("2"); // Prints 2 on sec diagonal
                 }
-                // Sec. Diagonal
+                // Main Diagonal
                 else if (i == j) {
                     printf("1"); // Prints 1 if is on main diagonal
                 }
