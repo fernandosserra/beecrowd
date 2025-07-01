@@ -53,7 +53,7 @@ loop = do
         if n == 0 then return ()
         else do
             -- Calculating the number of digits and the matrix size
-            -- max valeu are in (n-1, n-1)
+            -- max value are in (n-1, n-1)
             let maxValue = calculateValue (n - 1) (n - 1)
             let numDigits = fromIntegral (countDigits maxValue)
             
