@@ -1,5 +1,5 @@
 -- https://judge.beecrowd.com/pt/problems/view/1864
--- Nossos Dias Nuna Voltarão
+-- Nossos Dias Nunca Voltarão
 
 -- Main Code
 main :: IO()
