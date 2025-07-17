@@ -6,7 +6,6 @@
 for _ in range(int(input())):
     _ = input()
 
-
 print("Ciencia da Computacao")
 
 # By: Fernando Serra
