@@ -7,9 +7,11 @@ import Control.Monad (replicateM_)
 -- Main
 main :: IO()
 main = do
-    _ <- getLine
+    
+    numCoursesStr <- getLine
+    let numCourses = read numCoursesStr :: Int
 
-    replicateM_ 3 getLine
+    replicateM_ numCourses getLine
     
     putStrLn "Ciencia da Computacao"
 
