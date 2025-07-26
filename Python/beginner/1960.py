@@ -11,6 +11,8 @@ for i in range(len(numbers)):
     while usrInput >= numbers[i]:
         usrInput -= numbers[i]
         print(romans[i], end="")
+    
+print()
         
 # By: Fernando Serra
 # https://github.com/fernandosserra
